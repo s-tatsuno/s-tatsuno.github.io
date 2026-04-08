@@ -13,6 +13,8 @@ website:
         text: ホーム
       - href: cv.qmd
         text: 略歴
+  page-footer:
+    center: "© Shunsuke Tatsuno &nbsp;·&nbsp; Built with [Quarto](https://quarto.org) · [GitHub Pages](https://pages.github.com)"
 
 
 format:
