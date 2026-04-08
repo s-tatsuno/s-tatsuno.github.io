@@ -90,7 +90,7 @@ Contact
 [{{< fa brands x-twitter >}} Twitter (X)](https://x.com/S1230Tats){.social-link target="_blank"}
 
 :::{.blog-link-wrap}
-[研究室の机 →](https://s-tatsuno.github.io/lab-desk/){.blog-link target="_blank"}
+[研究室の机 (ブログ) →](https://s-tatsuno.github.io/lab-desk/){.blog-link target="_blank"}
 :::
 :::
 :::
