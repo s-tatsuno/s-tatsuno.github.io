@@ -1,0 +1,89 @@
+---
+title: "略歴"
+---
+
+## 学位取得
+
+:::{.timeline}
+
+:::{.timeline-item}
+[2026年3月]{.timeline-date}
+**修士（法学）**
+一橋大学大学院 法学研究科
+:::
+
+:::{.timeline-item}
+[2024年3月]{.timeline-date}
+**学士（法学）**
+一橋大学 法学部
+:::
+
+:::
+
+## 経歴
+
+### TA｜ティーチング・アシスタント
+
+英語表記は英語開講科目。
+
+:::{.timeline}
+
+:::{.timeline-item}
+[2026年度 春夏学期]{.timeline-date}
+[国際・公共政策研究科]{.timeline-sub}\
+**Quantitative Analysis in International Relations**
+:::
+
+:::{.timeline-item}
+[2025年度 冬季集中]{.timeline-date}
+[ソーシャル・データサイエンス研究科]{.timeline-sub}\
+**International Politics and Data Science**
+:::
+
+:::{.timeline-item}
+[2025年度 春夏学期]{.timeline-date}
+[全学共通教育科目]{.timeline-sub}\
+**ジェンダーから世界を読む**
+:::
+
+:::{.timeline-item}
+[2024年度 夏期集中]{.timeline-date}
+[ソーシャル・データサイエンス研究科]{.timeline-sub}\
+**International Politics and Data Science**
+:::
+
+:::{.timeline-item}
+[2024年度 春夏学期]{.timeline-date}
+[法学研究科]{.timeline-sub}\
+**国際政治の計量分析 I**
+:::
+
+:::
+
+### RA｜リサーチ・アシスタント
+
+:::{.timeline}
+
+:::{.timeline-item}
+[2026年度 〜 現在]{.timeline-date}
+**科研費技術員**（修士修了以上の者）
+:::
+
+:::{.timeline-item}
+[2024年度 〜 2025年度]{.timeline-date}
+**科研費技術員**（修士在学者）
+:::
+
+:::
+
+### その他
+
+:::{.timeline}
+
+:::{.timeline-item}
+[2022年10月 〜 2023年3月]{.timeline-date}
+[一橋大学ソーシャル・データサイエンス教育研究推進センター & トグルホールディングス株式会社]{.timeline-sub}\
+**研究補助員**「土地利用最適化プロジェクト」
+:::
+
+:::

@@ -1,0 +1,15 @@
+# Internal reference
+CSS_REFERENCE.md
+
+# Claude Code
+CLAUDE.md
+.claude/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+/.quarto/
+**/*.quarto_ipynb
+
+/docs

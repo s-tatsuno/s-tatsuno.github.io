@@ -1,0 +1,97 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+:::{.index-hero}
+:::{.index-hero-inner}
+
+:::{.hero-name-ja}
+達野　俊輔
+:::
+
+:::{.hero-name-en}
+Shunsuke Tatsuno
+:::
+
+:::{.hero-affil}
+一橋大学大学院 法学研究科・博士後期課程
+
+Ph.D. Student at Graduate School of Law, Hitotsubashi University
+:::
+
+[略歴を見る](cv.qmd){.btn .btn-hero .mt-3}
+
+:::
+:::
+
+:::{.index-body}
+
+:::{.profile-card}
+
+:::{.profile-card-text}
+
+:::{.section-label}
+About
+:::
+
+一橋大学大学院法学研究科博士後期課程に在籍し、国際関係論を専攻しています。特に、内戦や社会運動における暴力・非暴力の選択や効果に関心があります。
+趣味でヴァイオリンを弾いています。
+
+:::{.interest-tags}
+[国際政治の理論]{.interest-tag}
+[内戦、紛争]{.interest-tag}
+[計量政治学]{.interest-tag}
+[チャイコフスキー]{.interest-tag}
+:::
+
+:::
+
+:::{.profile-card-photo}
+![](assets/profile.JPG){.profile-photo-img}
+:::
+
+:::
+
+:::{.index-grid}
+
+:::{.index-col-side}
+
+:::{.section-label}
+Education
+:::
+
+:::{.edu-list}
+**博士後期課程（在学中）**
+法学研究科、一橋大学
+
+**修士（法学）**
+2026年3月、一橋大学
+
+**学士（法学）**
+2024年3月、一橋大学
+:::
+
+:::
+
+:::{.index-col-side}
+
+:::{.section-label}
+Contact
+:::
+
+:::{.contact-email}
+{{< fa envelope >}} jd261004 [at] g.hit-u.ac.jp
+:::
+
+[{{< fa brands github >}} GitHub](https://github.com/s-tatsuno){.social-link target="_blank"}
+
+[{{< fa brands x-twitter >}} Twitter (X)](https://x.com/S1230Tats){.social-link target="_blank"}
+
+:::{.blog-link-wrap}
+[研究室の机 →](https://s-tatsuno.github.io/lab-desk/){.blog-link target="_blank"}
+:::
+:::
+:::
+:::

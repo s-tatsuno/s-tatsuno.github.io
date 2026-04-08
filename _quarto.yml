@@ -1,0 +1,28 @@
+project:
+  type: website
+  resources:
+    - "assets/"
+  output-dir: docs
+
+
+website:
+  title: "Shunsuke Tatsuno"
+  navbar:
+    left:
+      - href: index.qmd
+        text: ホーム
+      - href: cv.qmd
+        text: 略歴
+
+
+format:
+  html:
+    theme:
+      light: [sandstone, styles.scss]
+    toc: false
+
+filters:
+  - fontawesome
+
+
+lang: ja

@@ -1,0 +1,461 @@
+/*-- scss:defaults --*/
+$primary: #283f3b;
+$body-color: #333;
+$body-bg: #f8f9fa;
+$link-color: $primary;
+$headings-color: #343a40;
+$navbar-bg: $primary;
+$navbar-fg: $body-bg;
+$footer-bg: rgb(7, 71, 117);
+
+
+/*-- scss:rules --*/
+
+/* --- フォント設定 --- */
+/* 見出し: Noto Sans JP、本文: Noto Sans(欧文) + BIZ UDPGothic(和文)、コード: Fira Code */
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Fira+Code:wght@300..700&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Noto Sans', 'BIZ UDPGothic', sans-serif;
+  line-height: 1.8;
+}
+
+body.font-default {
+  font-family: initial !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#title-block-header {
+  margin-bottom: 2em;
+}
+
+/* --- ヒーローイメージ --- */
+.hero-image-container {
+  position: relative;
+  margin-bottom: 2em;
+  padding: 4em 0;
+  clear: both;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 45%;
+  animation: intro 0.5s both;
+  animation-delay: 0.2s;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+}
+
+.hero-caption {
+  text-align: center;
+  font-size: 0.8rem;
+  color: dimgray;
+  margin-top: 0.5em;
+}
+
+
+/* --- 著者カード --- */
+.author-card {
+  display: flex;
+  align-items: center;
+  margin: 2em 0;
+  padding: 1.5em;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #fdfdfd;
+  overflow-wrap: break-word;
+
+  .text-content {
+    flex: 2;
+    padding-right: 2em;
+    h3 { margin-top: 0; }
+    p { font-size: 0.9rem; line-height: 1.8; }
+  }
+  .image-content {
+    flex: 1;
+    img {
+      width: 100%;
+      max-width: 150px;
+      display: block;
+      margin: 0 auto;
+      object-fit: cover;
+    }
+  }
+}
+
+/* --- 引用カード --- */
+.apa-citation-card {
+  font-size: 1.3rem;
+  padding-top: 1rem;
+  padding-left: 5rem;
+  text-indent: -2rem;
+  font-family: 'Times New Roman', 'Noto Serif JP', Times, serif;
+}
+.citation-card {
+  p {
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+    padding-left: 5rem;
+    text-indent: -2rem;
+    font-family: 'Times New Roman', 'Noto Serif JP', Times, serif;
+  }
+}
+
+
+/* --- PDF 埋め込み --- */
+.slide-deck {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.pdf-embed iframe {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.download-link {
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+/* --- タイムライン --- */
+.timeline {
+  position: relative;
+  padding-left: 28px;
+  margin: 1.2em 0 2em;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 0.55em;
+    bottom: 0.3em;
+    width: 2px;
+    background: linear-gradient(to bottom, $primary, rgba(40, 63, 59, 0.15));
+  }
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 16px;
+  padding-bottom: 1.8em;
+
+  &:last-child { padding-bottom: 0; }
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: -28px;
+    top: 0.35em;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid $primary;
+    box-shadow: 0 0 0 3px rgba(40, 63, 59, 0.12);
+  }
+}
+
+.timeline-date {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: $primary;
+  margin-bottom: 0.2em;
+}
+
+.timeline-sub {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* --- インデックスページ ヒーロー --- */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.index-hero {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding: 7em 2em 6em;
+  background: linear-gradient(140deg, #1a2e2b 0%, #283f3b 45%, #0d2233 100%);
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, rgba(168, 197, 190, 0.6), transparent);
+  }
+}
+
+.index-hero-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  animation: fadeInUp 0.9s both;
+}
+
+/* --- プロフィールカード --- */
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+  margin-bottom: 2.5em;
+  padding: 2.2em 2.5em;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+  border: 1px solid #eee;
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5em;
+    padding: 1.8em;
+  }
+}
+
+.profile-card-text {
+  flex: 1;
+}
+
+.profile-card-photo {
+  flex-shrink: 0;
+}
+
+.profile-photo-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 4px solid #f0f0f0;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+  display: block;
+}
+
+.hero-name-ja {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  margin-bottom: 0.2em;
+  color: white;
+}
+
+.hero-name-en {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: clamp(0.95rem, 2vw, 1.15rem);
+  font-weight: 300;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 1.2em;
+}
+
+.hero-affil {
+  font-size: 0.92rem;
+  line-height: 1.9;
+  opacity: 0.82;
+  letter-spacing: 0.02em;
+}
+
+.btn-hero {
+  display: inline-block;
+  margin-top: 1.8em;
+  padding: 0.55em 1.8em;
+  border: 1.5px solid rgba(255, 255, 255, 0.55);
+  border-radius: 2em;
+  color: white;
+  font-size: 0.88rem;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  transition: background 0.25s, border-color 0.25s;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.9);
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* --- インデックスページ 本文 --- */
+.index-body {
+  max-width: 860px;
+  margin: 3.5em auto;
+  padding: 0 1.5em;
+}
+
+.index-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3em;
+  margin-bottom: 2.5em;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    gap: 2em;
+  }
+}
+
+.section-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: $primary;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid $primary;
+  display: inline-block;
+}
+
+/* --- リサーチ関心タグ --- */
+.interest-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 1.2em;
+}
+
+.interest-tag {
+  display: inline-block;
+  padding: 0.28em 0.85em;
+  border: 1.5px solid $primary;
+  border-radius: 2em;
+  font-size: 0.82rem;
+  color: $primary;
+  background: transparent;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover {
+    background: $primary;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* --- 学歴リスト --- */
+.edu-list {
+  font-size: 0.9rem;
+  line-height: 1.6;
+
+  strong {
+    display: block;
+    margin-top: 1em;
+    color: $headings-color;
+
+    &:first-child { margin-top: 0; }
+  }
+}
+
+/* --- ニュース --- */
+.news-list {
+  margin-top: 0.5em;
+}
+
+.news-item {
+  display: flex;
+  gap: 1.5em;
+  padding: 0.85em 0;
+  border-bottom: 1px solid #e8e8e8;
+  align-items: baseline;
+
+  &:last-child { border-bottom: none; }
+}
+
+/* --- ソーシャルリンク --- */
+.contact-email {
+  font-size: 1rem;
+  color: $body-color;
+  margin-bottom: 1em;
+  letter-spacing: 0.02em;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
+.social-link {
+  font-size: 1rem;
+  color: #999;
+  text-decoration: none;
+  transition: color 0.2s;
+
+  &:hover { color: $primary; }
+}
+
+/* --- ブログリンク --- */
+.blog-link-wrap {
+  margin-top: 1em;
+}
+
+.blog-link {
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  color: $primary;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+  transition: opacity 0.2s;
+
+  &:hover { opacity: 0.65; }
+}
+
+.news-date {
+  font-size: 0.8rem;
+  color: #999;
+  white-space: nowrap;
+  min-width: 5.5em;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+
+.news-text {
+  font-size: 0.93rem;
+  line-height: 1.7;
+  color: $body-color;
+}
+
+/* --- リスト --- */
+.aligned-list table {
+  border: none;
+  margin-bottom: 2.5em;
+  td, th {
+    border: none;
+    background: transparent;
+    vertical-align: top;
+    padding: 0.4em 0.5em;
+  }
+  tr { border-bottom: 1px solid #e0e0e0; }
+  tr:last-child { border-bottom: none; }
+}
