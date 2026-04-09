@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .index-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 2fr;
   gap: 3em;
   margin-bottom: 2.5em;
 
@@ -328,13 +328,16 @@ h1, h2, h3, h4, h5, h6 {
 .section-label {
   font-size: 0.7rem;
   font-weight: 700;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: $primary;
-  margin-bottom: 0.8em;
-  padding-bottom: 0.4em;
-  border-bottom: 2px solid $primary;
-  display: inline-block;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.8em;
+  border-bottom: 2.5px solid $primary;
+  display: block;
+  width: fit-content;
+
+  p { margin: 0; line-height: 1; }
 }
 
 /* --- リサーチ関心タグ --- */
@@ -367,12 +370,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.9rem;
   line-height: 1.6;
 
-  strong {
-    display: block;
-    margin-top: 1em;
-    color: $headings-color;
-
-    &:first-child { margin-top: 0; }
+  table {
+    border: none;
+    thead { display: none; }
+    td {
+      border: none;
+      background: transparent;
+      padding: 0.2em 0.6em 0.2em 0;
+      vertical-align: top;
+      &:first-child {
+        white-space: nowrap;
+        color: #888;
+      }
+    }
   }
 }
 

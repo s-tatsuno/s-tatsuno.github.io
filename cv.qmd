@@ -30,7 +30,7 @@ title: "略歴"
 
 :::{.timeline-item}
 [2026年度 春夏学期]{.timeline-date}
-[国際・公共政策研究科]{.timeline-sub}\
+[国際・公共政策大学院]{.timeline-sub}\
 **Quantitative Analysis in International Relations**
 :::
 
