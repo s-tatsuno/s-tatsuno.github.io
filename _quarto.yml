@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - "assets/"
+    - "googlea494828825ce6806.html"
   output-dir: docs
 
 
