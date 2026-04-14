@@ -7,6 +7,8 @@ project:
 
 website:
   title: "Shunsuke Tatsuno"
+  site-url: https://s-tatsuno.github.io
+  description: "達野俊輔 - 一橋大学大学院法学研究科博士後期課程在学。国際関係専攻で、主な関心は内戦・社会運動における暴力/非暴力"
   navbar:
     left:
       - href: index.qmd
@@ -15,13 +17,16 @@ website:
         text: 略歴
   page-footer:
     center: "© Shunsuke Tatsuno &nbsp;·&nbsp; Built with [Quarto](https://quarto.org) · [GitHub Pages](https://pages.github.com)"
-
+  open-graph: true
+  twitter-card: true
 
 format:
   html:
     theme:
       light: [sandstone, styles.scss]
     toc: false
+    metadata:
+      author: "Shunsuke Tatsuno"
 
 filters:
   - fontawesome
