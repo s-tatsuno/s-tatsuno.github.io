@@ -4,16 +4,6 @@ pagetitle: "Shunsuke Tatsuno"
 page-layout: full
 lang: en
 toc: false
-website:
-  navbar:
-    left:
-      - href: /en/index.qmd
-        text: Home
-      - href: /en/cv.qmd
-        text: CV
-    right:
-      - text: JA
-        href: /index.qmd
 ---
 
 :::{.index-hero}

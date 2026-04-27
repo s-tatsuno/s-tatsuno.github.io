@@ -1,4 +1,10 @@
 lang: en
+
+project:
+  render:
+    - en/index.qmd
+    - en/cv.qmd
+
 website:
   navbar:
     left:
@@ -8,4 +14,4 @@ website:
         text: CV
     right:
       - text: JA
-        href: /index.qmd
+        href: /index.html
