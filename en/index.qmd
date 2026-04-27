@@ -1,0 +1,90 @@
+---
+title: ""
+page-layout: full
+lang: en
+toc: false
+---
+
+:::{.index-hero}
+:::{.index-hero-inner}
+
+:::{.hero-name-ja}
+Shunsuke Tatsuno
+:::
+
+
+:::{.hero-affil}
+Ph.D. Student at Graduate School of Law, Hitotsubashi University
+:::
+
+[See my CV](en/cv.qmd){.btn .btn-hero .mt-3}
+
+:::
+:::
+
+:::{.index-body}
+
+:::{.profile-card}
+
+:::{.profile-card-text}
+
+:::{.section-label}
+About
+:::
+
+I am a Ph.D. student in the Graduate School of Law at Hitotsubashi University, majoring in Internatinoal Relations. I am particularly interested in the choice and effects of violence and nonviolence in civil conflicts and social movements. I primary conduct empirical analyses using statistical methods. In my free time, I enjoy playing the violin.
+
+
+:::{.interest-tags}
+[IR theories]{.interest-tag}
+[civil wars]{.interest-tag}
+[Quantitative analysis]{.interest-tag}
+[Sibelius]{.interest-tag}
+:::
+
+:::
+
+:::{.profile-card-photo}
+![](assets/profile.JPG){.profile-photo-img}
+:::
+
+:::
+
+:::{.index-grid}
+
+:::{.index-col-side}
+
+:::{.section-label}
+Education
+:::
+
+:::{.edu-list}
+| | |
+|---|---|
+| 2026 - Present | Ph.D. candidate, Graduate School of Law, Hitotsubashi University |
+| 2024 - 2026    | Master's Program, Graduate School of Law, Hitotsubashi University |
+| 2020 - 2024    | Faculty of Law, Hitotsubashi University |
+:::
+
+:::
+
+:::{.index-col-side}
+
+:::{.section-label}
+Contact
+:::
+
+:::{.contact-email}
+{{< fa envelope >}} jd261004 [at] g.hit-u.ac.jp
+:::
+
+[{{< fa brands github >}} GitHub](https://github.com/s-tatsuno){.social-link target="_blank"}
+
+[{{< fa brands x-twitter >}} Twitter (X)](https://x.com/S1230Tats){.social-link target="_blank"}
+
+:::{.blog-link-wrap}
+[My blog in Japanese→](https://s-tatsuno.github.io/lab-desk/){.blog-link target="_blank"}
+:::
+:::
+:::
+:::

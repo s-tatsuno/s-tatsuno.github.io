@@ -1,0 +1,84 @@
+---
+title: "CV"
+lang: en
+---
+
+## Education
+
+:::{.timeline}
+[April 2026 - Present]{.timeline-date}
+**Ph.D. Student in International Relations**
+Graduate School of Law, Hitotsubashi University
+:::
+
+:::{.timeline-item}
+[March 2026]{.timeline-date}
+**Master of Laws**
+Graduate School of Law, Hitotsubashi University
+:::
+
+:::{.timeline-item}
+[March 2024]{.timeline-date}
+**Bachelor of Laws**
+Faculty of Law, Hitotsubashi University
+:::
+
+:::
+
+## CV
+
+### Teaching Assistant
+
+\*: In Japanese
+
+:::{.timeline}
+
+:::{.timeline-item}
+[2026 Spring/Summer]{.timeline-date}
+[School of International and Public Policy]{.timeline-sub}\
+**Quantitative Analysis in International Relations**
+:::
+
+:::{.timeline-item}
+[2025 Winter]{.timeline-date}
+[Graduate School of Social Data Science]{.timeline-sub}\
+**International Politics and Data Science**
+:::
+
+:::{.timeline-item}
+[2025 Spring/Summer]{.timeline-date}
+[General Education Course]{.timeline-sub}\
+**\*Gender Issues Across the World**
+:::
+
+:::{.timeline-item}
+[2024 Summer]{.timeline-date}
+[Graduate School of Social Data Science]{.timeline-sub}\
+**International Politics and Data Science**
+:::
+
+:::{.timeline-item}
+[2024 Spring/Summer]{.timeline-date}
+[Graduate School of Law]{.timeline-sub}\
+**\*Quantitative Methods in International Politics**
+:::
+
+:::
+
+### Research Assistant
+
+:::{.timeline}
+
+:::{.timeline-item}
+[2024 - Present]{.timeline-date}
+- Project funded by JSPS KAKENHI (Grants-in-Aid for Scientific Research)
+:::
+
+:::{.timeline-item}
+[October 2022 - March 2023]{.timeline-date}
+[Center for Social Data Science Education and Research, Hitotsubashi University]{.timeline-sub}\
+- Project funded by toggle holdings Inc.
+- Collected data and built predictive models using machine learning.
+:::
+
+:::

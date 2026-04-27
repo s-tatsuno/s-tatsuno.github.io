@@ -1,0 +1,11 @@
+lang: en
+website:
+  navbar:
+    left:
+      - href: /en/index.qmd
+        text: Home
+      - href: /en/cv.qmd
+        text: CV
+    right:
+      - text: JA
+        href: /index.qmd
