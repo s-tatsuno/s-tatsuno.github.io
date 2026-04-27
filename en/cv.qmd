@@ -6,6 +6,8 @@ lang: en
 ## Education
 
 :::{.timeline}
+
+:::{.timeline-item}
 [April 2026 - Present]{.timeline-date}
 **Ph.D. Student in International Relations**
 Graduate School of Law, Hitotsubashi University
@@ -62,7 +64,6 @@ Faculty of Law, Hitotsubashi University
 [Graduate School of Law]{.timeline-sub}\
 **\*Quantitative Methods in International Politics**
 :::
-
 :::
 
 ### Research Assistant
