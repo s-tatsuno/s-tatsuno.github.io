@@ -83,6 +83,9 @@ Contact
 :::{.contact-email}
 {{< fa envelope >}} jd261004 [at] g.hit-u.ac.jp
 :::
+:::{.contact-email}
+{{< fa envelope >}} shunsuke.tatsuno [at] gmail.com
+:::
 
 [{{< fa brands github >}} GitHub](https://github.com/s-tatsuno){.social-link target="_blank"}
 
