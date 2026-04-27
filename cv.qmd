@@ -7,14 +7,20 @@ title: "略歴"
 :::{.timeline}
 
 :::{.timeline-item}
+[2026年4月〜現在]{.timeline-date}
+**博士後期課程**\
+一橋大学大学院 法学研究科
+:::
+
+:::{.timeline-item}
 [2026年3月]{.timeline-date}
-**修士（法学）**
+**修士（法学）**\
 一橋大学大学院 法学研究科
 :::
 
 :::{.timeline-item}
 [2024年3月]{.timeline-date}
-**学士（法学）**
+**学士（法学）**\
 一橋大学 法学部
 :::
 
@@ -64,21 +70,12 @@ title: "略歴"
 
 :::{.timeline}
 
-:::{.timeline-item}
-[2026年度 〜 現在]{.timeline-date}
-**科研費技術員**（修士修了以上の者）
-:::
 
 :::{.timeline-item}
-[2024年度 〜 2025年度]{.timeline-date}
-**科研費技術員**（修士在学者）
+[2024年度 〜 現在]{.timeline-date}
+**科研費技術員**\
 :::
 
-:::
-
-### その他
-
-:::{.timeline}
 
 :::{.timeline-item}
 [2022年10月 〜 2023年3月]{.timeline-date}

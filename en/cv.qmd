@@ -72,14 +72,15 @@ Faculty of Law, Hitotsubashi University
 
 :::{.timeline-item}
 [2024 - Present]{.timeline-date}
-- Project funded by JSPS KAKENHI (Grants-in-Aid for Scientific Research)
+**KAKENHI Research Assistant**\
+Project funded by JSPS KAKENHI (Grants-in-Aid for Scientific Research). I am conducting data collection, coding, and analyses, and assisting with project-related administrative workflows.
 :::
 
 :::{.timeline-item}
 [October 2022 - March 2023]{.timeline-date}
 [Center for Social Data Science Education and Research, Hitotsubashi University]{.timeline-sub}\
-- Project funded by toggle holdings Inc.
-- Collected data and built predictive models using machine learning.
+**Research Assistant**\
+Project funded by toggle holdings Inc. I collected data and built predictive models using machine learning using R and Python.
 :::
 
 :::
