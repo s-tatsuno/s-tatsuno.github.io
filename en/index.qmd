@@ -17,7 +17,7 @@ Shunsuke Tatsuno
 Ph.D. Student at Graduate School of Law, Hitotsubashi University
 :::
 
-[See my CV](en/cv.qmd){.btn .btn-hero .mt-3}
+[See my CV](cv.qmd){.btn .btn-hero .mt-3}
 
 :::
 :::
@@ -45,7 +45,7 @@ I am a Ph.D. student in the Graduate School of Law at Hitotsubashi University, m
 :::
 
 :::{.profile-card-photo}
-![](assets/profile.JPG){.profile-photo-img}
+![](../assets/profile.JPG){.profile-photo-img}
 :::
 
 :::
