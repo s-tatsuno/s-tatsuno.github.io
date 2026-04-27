@@ -20,8 +20,6 @@ format:
     theme:
       light: [sandstone, styles.scss]
     toc: false
-    metadata:
-      author: "Shunsuke Tatsuno"
 
 filters:
   - fontawesome
