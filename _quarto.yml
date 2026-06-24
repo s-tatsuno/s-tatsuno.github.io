@@ -5,9 +5,10 @@ project:
     - "googlea494828825ce6806.html"
   output-dir: docs
 
+lang: ja
 
 website:
-  title: "Shunsuke Tatsuno / 達野俊輔"
+  title: "Shunsuke Tatsuno ｜ 達野俊輔"
   site-url: https://s-tatsuno.github.io
   description: "達野俊輔 - 一橋大学大学院法学研究科博士後期課程在学。国際関係専攻で、主な関心は内戦・社会運動における暴力/非暴力"
   navbar: 
@@ -29,6 +30,11 @@ format:
     theme:
       light: [sandstone, styles.scss]
     toc: false
+    include-in-header:
+      text: |
+        <link rel="alternate" hreflang="ja" href="https://s-tatsuno.github.io/" />
+        <link rel="alternate" hreflang="en" href="https://s-tatsuno.github.io/en/" />
+        <link rel="alternate" hreflang="x-default" href="https://s-tatsuno.github.io/" />
 
 filters:
   - fontawesome

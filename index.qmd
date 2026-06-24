@@ -1,6 +1,6 @@
 ---
 title: ""
-pagetitle: "Shunsuke Tatsuno"
+pagetitle: "Shunsuke Tatsuno｜達野俊輔"
 page-layout: full
 toc: false
 ---
